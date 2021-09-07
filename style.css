@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: wheat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+.card-container {
+    width: 300px;
+    height: 430px;
+    background: steelblue;
+    border-radius: 6px;
+    position: absolute;
+    overflow: hidden;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 1px 10px 1px #000;
+}
+
+.upper-container {
+    height: 130px;
+    background: mediumseagreen;
+}
+
+.image-container {
+    background: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 4px;
+    transform: translate(100px, 80px);
+}
+
+.image-container img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.lower-container {
+    height: 300px;
+    background: steelblue;
+    padding: 20px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.lower-container h3 h4 {
+    box-sizing: border-box;
+    line-height: .6;
+    font-weight: lighter;
+}
+
+.lower-container h4 {
+    color: crimson;
+    opacity: .6;
+    font-weight: bold;
+}
+
+.lower-container p {
+    font-size: 16px;
+    color: sienna;
+    margin-bottom: 25px;
+}
+
+.lower-container .btn {
+    padding: 12px 20px;
+    background: mediumseagreen;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .3s ease-in;
+}
+
+.lower-container .btn:hover {
+    background: transparent;
+    color: mediumseagreen;
+    border: 2px solid mediumseagreen;
+}
